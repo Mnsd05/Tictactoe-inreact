@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(./images/background.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+h1{
+    margin-top: 100px;
+    color: red;
+}
+section{
+    width: 30vw;
+    margin: auto;
+    margin-top: 50px;
+} 
+.container{
+    display: grid;
+    grid-template: 10vw 10vw 10vw / 1fr 1fr 1fr;
+ 
+}
+.support--board{
+    height: 15vh;
+    border:2px gray groove;
+    display: flex;
+    justify-content: center;
+    color:cadetblue;
+    font-weight: bold;
+}
+h2{
+    align-self: center;
+    font-size: 10vh;
+    font-family: 'Tangerine', serif;
+}
+.cell--X{
+    border: 2px gray groove;
+    background-color:transparent ;
+    font-family: 'Itim', cursive;
+    font-size: 7vw;
+    color: red;
+    cursor:pointer
+}
+.cell--O{
+    border: 2px gray groove;
+    background-color:transparent ;
+    font-family: 'Itim', cursive;
+    font-size: 7vw;
+    color: green;
+    cursor:pointer
+}
+button:active {
+    transform: scale(0.98);
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+}
+.reset--button{
+    margin:0 auto;
+    display:block;
+    margin-top: 30px;
+    font-size: 20px;
+    width: 150px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 5px;
+    background-color: blueviolet;
+}
+
+
+ /* .App{
+    text-align: center;
+ }
+ nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 10px;
+    background: rgb(73,79,82);
+    color:white;
+ } */
