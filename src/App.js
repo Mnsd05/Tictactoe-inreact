@@ -1,5 +1,5 @@
 import React from "react"
-import {BrowserRouter as Router, Routes, Route} from "react-router-dom"
+import {HashRouter as Router, Routes, Route} from "react-router-dom"
 import Choose from "./Choose";
 import Tictactoe from "./Tictactoe";
 
